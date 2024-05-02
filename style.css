@@ -1,0 +1,72 @@
+
+body {
+    border: 1px solid gray;
+    margin: 10;
+    padding: 10;
+}
+
+header {
+    background-color: pink;
+    height: 30px;
+    padding: 10px;
+}
+
+#work {
+    font-weight: bold;
+}
+
+.action {
+    width: 8%;
+    border: 0px;
+    margin-left: 10%;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section, aside {
+    padding: 10px;
+    width: 45%; 
+    font-weight: bold;
+}
+.section-field, .aside-field {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 30px; 
+    margin-right: 40px;
+    margin-left:40px;
+}
+
+.r {
+    color: red; 
+}
+
+.line {
+    text-decoration: underline; 
+    color: gray;
+}
+
+select{
+    width: 247px;
+}
+#check{
+    margin-right: 135px;
+    font-weight: normal;
+}
+.foot{
+    background-color: rgb(186, 167, 167);
+    height: 30px;
+}
+.f{
+    margin-top: 5px;
+    margin-left: 450px;
+    background-color: pink;
+
+}
+.g{
+    background-color: pink;
+}

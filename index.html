@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <span id="work">Workshop Registration</span>
+        <select class="action">
+            <option class="action">More Actions</option>
+        </select>
+    </header>
+
+    <form action="#">
+        <div class="container">
+            <section>
+                <p class="line">Register now while seats are available</p>
+                <div class="section-field">
+                    <div><label for="firstName">First Name: <strong class="r">*</strong></label></div>
+                    <input type="text" name="firstName" size="35" required>
+                </div>
+                <div class="section-field">
+                    <div>
+                        <label for="lastName">Last Name: <strong class="r">*</strong></label>
+                    </div>
+                    <input type="text" name="lastName" size="35" required>
+                </div>
+                <div class="section-field">
+                    <div>
+                        <label for="companyInstitution">Company/Institution: <strong class="r">*</strong></label>
+                    </div>
+                    <input type="text" name="companyInstitution" size="35" required>
+                </div>
+                <div class="section-field">
+                    <div>
+                        <label for="address">Address: <strong class="r">*</strong></label>
+                    </div>
+                    <textarea name="address" cols="28" required></textarea>
+                </div>
+                <div class="section-field">
+                    <div><label for="city">City:</label></div>
+                    <input type="text" name="city" size="35">
+                </div>
+                <div class="section-field">
+                    <label for="state">State/Province/Region:</label>
+                    <select name="state">
+                        <option selected>-Select-</option>
+                        <option>New York</option>
+                        <option>Iowa</option>
+                        <option>Texas</option>
+                        <option>Mandalay</option>
+                        <option>Yangon</option>
+                    </select>
+                </div>
+                <div class="section-field">
+                    <div><label for="country">Country:</label></div>
+                    <select name="country">
+                        <option selected>-Select-</option>
+                        <option>US</option>
+                        <option>Canada</option>
+                        <option>Myanmar</option>
+                    </select>
+                </div>
+                <div class="section-field">
+                    <div><label for="email">Email: <strong class="r">*</strong></label></div>
+                    <input type="email" name="email" pattern="[a-z0-9]{4,}@(e|g)mail.com" size="35" required>
+                </div>
+                <div class="section-field">
+                    <div><label for="phone">Phone Number: <strong class="r">*</strong></label></div>
+                    <input type="tel" name="phone" pattern="" size="35" required>
+                </div>
+            </section>
+
+            <aside>
+                <p class="line">Lunch</p>
+                <div class="aside-field">
+                    <div><label>Meal Preference:</label></div>
+                    <select name="meal" width="35">
+                        <option selected>Vegetarian</option>
+                        <option>Pork</option>
+                        <option>Beef</option>
+                        <option>Chicken</option>
+                    </select>
+                </div>
+                <p class="line">Payment Details</p>
+                <div class="aside-field">
+                    <label>Payment Mode:</label>
+                    <div id="check">
+                        <label><input type="checkbox" name="payment" value="cash"> Cash</label><br>
+                        <label><input type="checkbox" name="payment" value="cheque"> Cheque</label><br>
+                        <input type="checkbox" name="payment" value="demand draft"> Demand Draft
+                    </div>
+                </div>
+                <div class="aside-field">
+                    <div><label>DD/Cheque No.:</label></div>
+                    <input type="text" name="DD" size="35">
+                </div>
+                <div class="aside-field">
+                    <div><label>Drawn On (Bank Name):</label></div>
+                    <input type="text" name="bankName" size="35">
+                </div>
+                <div class="aside-field">
+                    <div><label>Payable at:</label></div>
+                    <input type="text" name="payable" size="35">
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <div class="foot">
+                <a href="https://validator.w3.org/nu/?doc=https://htetyadanar-hyo.github.io/WAP_Lab3/">
+                    <img src="./htmlchecker.png" alt="html checker" width="80" height="20">
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhtetyadanar-hyo.github.io%2FWAP_Lab3%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                    <img src="./css_checker.png" alt="css checker" width="80" height="20">
+                </a> 
+                <input class="f" type="submit" value="Submit">
+                <input class="g" type="reset" value="Reset">
+            </div> 
+              
+        </footer>
+    </form>
+</body>
+
+</html>
